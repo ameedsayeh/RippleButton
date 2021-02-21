@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A9370C25E30B2A00A33E64 /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A9370B25E30B2A00A33E64 /* RippleButton.swift */; };
 		A3C9D2AA25E2E68E0009022C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9D2A925E2E68E0009022C /* AppDelegate.swift */; };
 		A3C9D2AC25E2E68E0009022C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9D2AB25E2E68E0009022C /* SceneDelegate.swift */; };
 		A3C9D2AE25E2E68E0009022C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9D2AD25E2E68E0009022C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3A9370B25E30B2A00A33E64 /* RippleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleButton.swift; sourceTree = "<group>"; };
 		A3C9D2A625E2E68E0009022C /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C9D2A925E2E68E0009022C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C9D2AB25E2E68E0009022C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				A3C9D2B225E2E6900009022C /* Assets.xcassets */,
 				A3C9D2B425E2E6900009022C /* LaunchScreen.storyboard */,
 				A3C9D2B725E2E6900009022C /* Info.plist */,
+				A3A9370B25E30B2A00A33E64 /* RippleButton.swift */,
 			);
 			path = Ripple;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C9D2AE25E2E68E0009022C /* ViewController.swift in Sources */,
+				A3A9370C25E30B2A00A33E64 /* RippleButton.swift in Sources */,
 				A3C9D2AA25E2E68E0009022C /* AppDelegate.swift in Sources */,
 				A3C9D2AC25E2E68E0009022C /* SceneDelegate.swift in Sources */,
 			);
