@@ -18,7 +18,6 @@ A Google Material Design Mocked Button
 ```rippleAnimationTime: TimeInterval``` | Time duration for the main ripple | 1.5 sec |
 ```overRippleAnimationTime: TimeInterval``` | Time duration for the secondary ripple | 1.8 sec |
 ```overRippleDelay: TimeInterval``` | Delay period before the secondary ripple starts | 0.1 sec |
-```shouldHighlightTitle: Bool``` | Enable/Disable default button title fade animation | true (Enabled) |
 ```shouldShowOverRipple: Bool``` | Enable/Disable the secondary ripple animation | false (Disabled) |
 
 

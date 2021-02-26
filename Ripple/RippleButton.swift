@@ -23,7 +23,6 @@ class RippleButton: UIButton {
     lazy var rippleLayer = CAShapeLayer()
     lazy var overRippleLayer = CAShapeLayer()
     
-    var shouldHighlightTitle = false
     var shouldShowOverRipple = true
     
     override func draw(_ rect: CGRect) {
@@ -33,9 +32,7 @@ class RippleButton: UIButton {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if shouldHighlightTitle {
-            super.touchesBegan(touches, with: event)
-        }
+        super.touchesBegan(touches, with: event)
         
         guard let firstTouch = touches.first else { return }
         
@@ -52,9 +49,7 @@ class RippleButton: UIButton {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if shouldHighlightTitle {
-            super.touchesEnded(touches, with: event)
-        }
+        super.touchesEnded(touches, with: event)
         
         self.rippleLayer.removeFromSuperlayer()
         self.overRippleLayer.removeFromSuperlayer()
